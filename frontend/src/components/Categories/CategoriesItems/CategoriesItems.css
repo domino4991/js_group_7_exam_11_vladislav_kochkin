@@ -1,0 +1,26 @@
+.Categories-items {
+    margin-right: 70px;
+}
+
+.Categories-items__list {
+    list-style: none;
+    padding: 0;
+}
+
+.Categories-item__list-item {
+    transition: 0.5s;
+    margin-bottom: 15px;
+}
+
+.Categories-item__list-btn {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Categories-item__list-btn:hover,
+.Categories-item__list-btn.active {
+    color: #00796b;
+}

@@ -1,0 +1,6 @@
+.Products-items {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
