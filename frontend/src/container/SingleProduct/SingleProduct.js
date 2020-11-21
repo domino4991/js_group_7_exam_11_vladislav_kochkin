@@ -7,7 +7,6 @@ import 'react-toastify/dist/ReactToastify.css'
 import Spinner from "../../components/UI/Preloader/Spinner";
 
 const SingleProduct = (props) => {
-    console.log(props);
     const {product, loading, error} = useSelector(state => state.products);
     const dispatch = useDispatch();
     const id = props.match.params.id;

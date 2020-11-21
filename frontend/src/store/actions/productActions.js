@@ -41,7 +41,6 @@ export const getProducts = query => {
 };
 
 export const getSingleProduct = id => {
-    console.log(id);
     return async dispatch => {
         dispatch(getSingleProductRequest());
         try {
